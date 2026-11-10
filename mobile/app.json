@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Pawdoku",
+    "slug": "pawdoku",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FFF0E4",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pawdoku.game"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF0E4"
+      },
+      "package": "com.pawdoku.game"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "pawdoku",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b1ce7a74-0613-4080-8369-10bca159b580"
+      }
+    }
+  }
+}
